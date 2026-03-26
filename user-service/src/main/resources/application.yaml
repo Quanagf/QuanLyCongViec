@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: user-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:mysql://mysql:3306/user_db?serverSslMode=DISABLED&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: Quan11092005@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 5
+      minimum-idle: 2
+      connection-timeout: 60000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      auto-commit: true
+
+server:
+  port: 8082

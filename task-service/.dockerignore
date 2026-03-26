@@ -1,0 +1,11 @@
+*.log
+.git
+.gitignore
+.env
+.DS_Store
+node_modules
+npm-debug.log
+target/
+.mvn
+*.iml
+.idea
