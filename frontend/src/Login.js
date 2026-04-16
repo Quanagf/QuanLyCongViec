@@ -143,7 +143,7 @@ function Login({ onLoginSuccess }) {
           <form onSubmit={handleRegister}>
             <h2>Đăng Ký</h2>
             <div className="form-group">
-              <label>ᵰÔn Đầy Đủ</label>
+              <label>Tên Đầy Đủ</label>
               <input
                 type="text"
                 value={fullName}
